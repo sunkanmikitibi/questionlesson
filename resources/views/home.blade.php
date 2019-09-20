@@ -14,7 +14,12 @@
                         </div>
                     @endif
 
-                    You are logged in!
+
+                    <ul class="list-group">
+                        <li class="list-group-item list-group-item-dark">
+                           <a href="{{ route('questions.index')}}">Questions</a> 
+                        </li>
+                    </ul>
                 </div>
             </div>
         </div>
